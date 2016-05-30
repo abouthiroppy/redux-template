@@ -1,0 +1,29 @@
+{
+  "name": "redux-template",
+  "version": "0.1.0",
+  "description": "",
+  "main": "cli/index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "dependencies": {
+    "inquirer": "^1.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abouthiroppy/redux-template.git"
+  },
+  "author": "abouthiroppy <git@about-hiroppy.com> (http://about-hiroppy.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abouthiroppy/redux-template/issues"
+  },
+  "homepage": "https://github.com/abouthiroppy/redux-template#readme",
+  "bin": {
+    "redux-template": "cli/index.js"
+  }
+}
