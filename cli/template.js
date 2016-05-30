@@ -11,7 +11,7 @@ module.exports = (answers) => {
   Promise.resolve().then(() => {
     return mkdir(entryPointDir);
   }).then(() => {
-    return copyDirs(templatesPath, `${current}/${entryPointDir}`);
+    return copyDirs(templatesPath, current);
   });
 };
 
