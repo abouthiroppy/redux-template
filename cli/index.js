@@ -18,6 +18,12 @@ inquirer.prompt(questions).then((answers) => {
       template(answers);
     }).catch((e) => {
       console.log(chalk.red('error'));
+    }).then(() => {
+      console.log(chalk.blue('install packages'));
+      // return npm.install();
+      return;
+    }).then(() => {
+      console.log(chalk.cyan('completion!'));
     });
   }
   else {
